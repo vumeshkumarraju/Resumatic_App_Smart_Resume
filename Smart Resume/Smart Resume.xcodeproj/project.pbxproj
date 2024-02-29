@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC0E72B32B05298A003F389B /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E72B22B05298A003F389B /* constant.swift */; };
+		FC0E72B52B052B7A003F389B /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0E72B42B052B7A003F389B /* APIHandler.swift */; };
+		FC92F7982B02547100C637D2 /* resumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92F7972B02547100C637D2 /* resumeViewController.swift */; };
+		FC92F79A2B0257F800C637D2 /* resumeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92F7992B0257F800C637D2 /* resumeTableViewCell.swift */; };
+		FC92F79C2B02595800C637D2 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92F79B2B02595800C637D2 /* model.swift */; };
+		FC92F79E2B02874C00C637D2 /* candidateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92F79D2B02874C00C637D2 /* candidateProfileViewController.swift */; };
+		FC92F7A02B02909C00C637D2 /* skillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92F79F2B02909C00C637D2 /* skillsViewController.swift */; };
+		FC92F7A22B02917500C637D2 /* skillsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92F7A12B02917500C637D2 /* skillsTableViewCell.swift */; };
+		FC92F7A42B02934600C637D2 /* projectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC92F7A32B02934600C637D2 /* projectsViewController.swift */; };
+		FCAF58C12AED85EF0046E5C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF58C02AED85EF0046E5C5 /* AppDelegate.swift */; };
+		FCAF58C32AED85EF0046E5C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF58C22AED85EF0046E5C5 /* SceneDelegate.swift */; };
+		FCAF58C52AED85EF0046E5C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF58C42AED85EF0046E5C5 /* ViewController.swift */; };
+		FCAF58C82AED85EF0046E5C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAF58C62AED85EF0046E5C5 /* Main.storyboard */; };
+		FCAF58CB2AED85EF0046E5C5 /* Smart_Resume.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCAF58C92AED85EF0046E5C5 /* Smart_Resume.xcdatamodeld */; };
+		FCAF58CD2AED85F20046E5C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCAF58CC2AED85F20046E5C5 /* Assets.xcassets */; };
+		FCAF58D02AED85F20046E5C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAF58CE2AED85F20046E5C5 /* LaunchScreen.storyboard */; };
+		FCF064EC2AFCCFA300027B0E /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF064EB2AFCCFA300027B0E /* extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC0E72B22B05298A003F389B /* constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
+		FC0E72B42B052B7A003F389B /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		FC92F7972B02547100C637D2 /* resumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resumeViewController.swift; sourceTree = "<group>"; };
+		FC92F7992B0257F800C637D2 /* resumeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resumeTableViewCell.swift; sourceTree = "<group>"; };
+		FC92F79B2B02595800C637D2 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		FC92F79D2B02874C00C637D2 /* candidateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = candidateProfileViewController.swift; sourceTree = "<group>"; };
+		FC92F79F2B02909C00C637D2 /* skillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skillsViewController.swift; sourceTree = "<group>"; };
+		FC92F7A12B02917500C637D2 /* skillsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skillsTableViewCell.swift; sourceTree = "<group>"; };
+		FC92F7A32B02934600C637D2 /* projectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projectsViewController.swift; sourceTree = "<group>"; };
+		FCAF58BD2AED85EF0046E5C5 /* Smart Resume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Resume.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAF58C02AED85EF0046E5C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCAF58C22AED85EF0046E5C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCAF58C42AED85EF0046E5C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCAF58C72AED85EF0046E5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCAF58CA2AED85EF0046E5C5 /* Smart_Resume.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smart_Resume.xcdatamodel; sourceTree = "<group>"; };
+		FCAF58CC2AED85F20046E5C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCAF58CF2AED85F20046E5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCAF58D12AED85F20046E5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF064EB2AFCCFA300027B0E /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCAF58BA2AED85EF0046E5C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCAF58B42AED85EF0046E5C5 = {
+			isa = PBXGroup;
+			children = (
+				FCAF58BF2AED85EF0046E5C5 /* Smart Resume */,
+				FCAF58BE2AED85EF0046E5C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCAF58BE2AED85EF0046E5C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCAF58BD2AED85EF0046E5C5 /* Smart Resume.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCAF58BF2AED85EF0046E5C5 /* Smart Resume */ = {
+			isa = PBXGroup;
+			children = (
+				FCAF58C02AED85EF0046E5C5 /* AppDelegate.swift */,
+				FCAF58C22AED85EF0046E5C5 /* SceneDelegate.swift */,
+				FCAF58C42AED85EF0046E5C5 /* ViewController.swift */,
+				FC92F7972B02547100C637D2 /* resumeViewController.swift */,
+				FC92F79F2B02909C00C637D2 /* skillsViewController.swift */,
+				FC92F7992B0257F800C637D2 /* resumeTableViewCell.swift */,
+				FC92F79D2B02874C00C637D2 /* candidateProfileViewController.swift */,
+				FC92F7A32B02934600C637D2 /* projectsViewController.swift */,
+				FC92F7A12B02917500C637D2 /* skillsTableViewCell.swift */,
+				FCF064EB2AFCCFA300027B0E /* extension.swift */,
+				FC92F79B2B02595800C637D2 /* model.swift */,
+				FCAF58C62AED85EF0046E5C5 /* Main.storyboard */,
+				FCAF58CC2AED85F20046E5C5 /* Assets.xcassets */,
+				FCAF58CE2AED85F20046E5C5 /* LaunchScreen.storyboard */,
+				FCAF58D12AED85F20046E5C5 /* Info.plist */,
+				FCAF58C92AED85EF0046E5C5 /* Smart_Resume.xcdatamodeld */,
+				FC0E72B22B05298A003F389B /* constant.swift */,
+				FC0E72B42B052B7A003F389B /* APIHandler.swift */,
+			);
+			path = "Smart Resume";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCAF58BC2AED85EF0046E5C5 /* Smart Resume */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAF58D42AED85F20046E5C5 /* Build configuration list for PBXNativeTarget "Smart Resume" */;
+			buildPhases = (
+				FCAF58B92AED85EF0046E5C5 /* Sources */,
+				FCAF58BA2AED85EF0046E5C5 /* Frameworks */,
+				FCAF58BB2AED85EF0046E5C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Resume";
+			productName = "Smart Resume";
+			productReference = FCAF58BD2AED85EF0046E5C5 /* Smart Resume.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCAF58B52AED85EF0046E5C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FCAF58BC2AED85EF0046E5C5 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = FCAF58B82AED85EF0046E5C5 /* Build configuration list for PBXProject "Smart Resume" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCAF58B42AED85EF0046E5C5;
+			productRefGroup = FCAF58BE2AED85EF0046E5C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCAF58BC2AED85EF0046E5C5 /* Smart Resume */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCAF58BB2AED85EF0046E5C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAF58D02AED85F20046E5C5 /* LaunchScreen.storyboard in Resources */,
+				FCAF58CD2AED85F20046E5C5 /* Assets.xcassets in Resources */,
+				FCAF58C82AED85EF0046E5C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCAF58B92AED85EF0046E5C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC92F7A42B02934600C637D2 /* projectsViewController.swift in Sources */,
+				FCAF58CB2AED85EF0046E5C5 /* Smart_Resume.xcdatamodeld in Sources */,
+				FCAF58C52AED85EF0046E5C5 /* ViewController.swift in Sources */,
+				FC92F79A2B0257F800C637D2 /* resumeTableViewCell.swift in Sources */,
+				FCAF58C12AED85EF0046E5C5 /* AppDelegate.swift in Sources */,
+				FC92F7A02B02909C00C637D2 /* skillsViewController.swift in Sources */,
+				FCF064EC2AFCCFA300027B0E /* extension.swift in Sources */,
+				FC0E72B52B052B7A003F389B /* APIHandler.swift in Sources */,
+				FCAF58C32AED85EF0046E5C5 /* SceneDelegate.swift in Sources */,
+				FC92F7A22B02917500C637D2 /* skillsTableViewCell.swift in Sources */,
+				FC92F79E2B02874C00C637D2 /* candidateProfileViewController.swift in Sources */,
+				FC0E72B32B05298A003F389B /* constant.swift in Sources */,
+				FC92F7982B02547100C637D2 /* resumeViewController.swift in Sources */,
+				FC92F79C2B02595800C637D2 /* model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCAF58C62AED85EF0046E5C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAF58C72AED85EF0046E5C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCAF58CE2AED85F20046E5C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAF58CF2AED85F20046E5C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCAF58D22AED85F20046E5C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCAF58D32AED85F20046E5C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCAF58D52AED85F20046E5C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S3D6V9R36;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart Resume/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umesh.Smart-Resume";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCAF58D62AED85F20046E5C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S3D6V9R36;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart Resume/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umesh.Smart-Resume";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCAF58B82AED85EF0046E5C5 /* Build configuration list for PBXProject "Smart Resume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAF58D22AED85F20046E5C5 /* Debug */,
+				FCAF58D32AED85F20046E5C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAF58D42AED85F20046E5C5 /* Build configuration list for PBXNativeTarget "Smart Resume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAF58D52AED85F20046E5C5 /* Debug */,
+				FCAF58D62AED85F20046E5C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCAF58C92AED85EF0046E5C5 /* Smart_Resume.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCAF58CA2AED85EF0046E5C5 /* Smart_Resume.xcdatamodel */,
+			);
+			currentVersion = FCAF58CA2AED85EF0046E5C5 /* Smart_Resume.xcdatamodel */;
+			path = Smart_Resume.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCAF58B52AED85EF0046E5C5 /* Project object */;
+}
